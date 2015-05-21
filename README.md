@@ -502,3 +502,19 @@ If you have input or ideas or would like to get involved, you may:
 
  - [MIT license](http://github.com/jeffbski/bench-rest/raw/master/LICENSE)
 
+## Remote Things
+
+- Server: the thing you install on a remote machine and remotely conrol
+- Host: the thing that controls the servers (preferably a set of them)
+
+Commuicatoin: simple socket IO eventing that wires everything up
+
+
+Have multiple requests: 
+  - strategy to split requests against drones
+  
+  - model: threads (local / remote) -> name: worker
+  
+  - remotes: can have multiple workers
+  - what this lib does: instrument work between multiple workers, regardless of wether they are remote or local
+  
