@@ -1,6 +1,6 @@
 'use strict';
 
-var benchrest = require('./bench-rest.js');
+var benchrest = require('../.');
 
 function benchrestError (err, ctxName) {
   process.send({
